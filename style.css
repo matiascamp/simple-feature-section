@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body,h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #020617;
+    color: #cbd5e1;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url('./assets/Background_image.svg');
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header p {
+  margin-bottom: 4rem;
+  color: #9DA3AE;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  column-gap: 3.5rem;
+  row-gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+h1 {
+  max-width: 450px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #E5E7EB;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.card {
+  max-width: 300px;
+  background-color: #212936;
+  border-radius: 16px;
+  padding: 16px;
+  height: 100%;
+  width: auto;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(247, 247, 248, 0.15);
+}
+
+.card div:first-child {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.icon {
+  background-color: #FCEED8;
+}
+
+.icon2{
+  background-color: #DEE9FC;
+}
+
+.icon3 {
+  background-color: #FBE5E6;
+}
+
+.card p {
+  max-width: 200px;
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    max-width: none;
+  }
+  
+  }
